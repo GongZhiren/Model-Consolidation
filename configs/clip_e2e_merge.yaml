@@ -1,0 +1,17 @@
+_target_: fusion_bench.method.e2e_merge.E2EFunctionalMergingForCLIP
+init_scale: 0.3
+steps: 400
+lr: 1.0e-4
+weight_decay: 0.0
+batch_size: 32
+num_cal_batches: 8
+anchor: 0.0
+grad_clip: 1.0
+match: proj
+sam_rho: 0.0
+dataloader_kwargs:
+  batch_size: 32
+  num_workers: 0
+init_from: null
+seed: 0
+stream: true

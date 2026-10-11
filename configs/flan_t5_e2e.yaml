@@ -1,0 +1,13 @@
+_target_: fusion_bench.method.e2e_merge.Seq2SeqE2EMergingForFlanT5
+init_scale: 0.3
+steps: 800
+lr: 1.0e-4
+weight_decay: 0.0
+batch_size: 16
+match: hidden
+init_from: null
+grad_clip: 1.0
+seed: 0
+dataloader_kwargs:
+  batch_size: 16
+  num_workers: 0
