@@ -2,7 +2,7 @@
 
 # Model Consolidation
 
-### When Does Refinement Pay? A Budgeted Functional View of Model Consolidation
+### When Does Refinement Pay?
 
 **Closed-form merging, Gauss–Newton, block-wise, and end-to-end refinement are budgeted
 approximations to one task-indexed functional objective. Exact local excess-loss formulas and a
@@ -190,7 +190,7 @@ FusionBench's own methods, run under the same pools.
 
 ```bibtex
 @article{gong2026consolidation,
-  title   = {When Does Refinement Pay? A Budgeted Functional View of Model Consolidation},
+  title   = {Model Consolidation: When Does Refinement Pay?},
   author  = {Gong, Zhiren and Wang, Tiantong and Zeng, Zihao and Duan, Yiyang and Xiao, Ming and Yuen, Chau and Lim, Wei Yang Bryan},
   journal = {Under review},
   year    = {2026}
